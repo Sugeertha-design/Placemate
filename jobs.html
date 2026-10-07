@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PlaceMate - Jobs</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                Place<span>Mate</span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="jobs.html">Jobs</a></li>
+                <li><a href="companies.html">Companies</a></li>
+                <li><a href="Placements.html">Placements</a></li>
+            </ul>
+
+            <a href="login.html" class="login-btn">Login</a>
+
+        </nav>
+    </header>
+
+
+    <!-- Jobs Hero -->
+    <section class="jobs-hero">
+
+        <p>EXPLORE OPPORTUNITIES</p>
+
+        <h1>Find Your Dream Job</h1>
+
+        <span>
+            Discover opportunities that match your skills and career goals.
+        </span>
+
+    </section>
+
+
+    <!-- Search -->
+    <section class="job-search">
+
+        <input
+            type="text"
+            id="jobSearch"
+            placeholder="🔍 Search jobs, companies or skills..."
+        >
+
+        <select id="jobCategory">
+            <option value="all">All Categories</option>
+            <option value="design">Design</option>
+            <option value="development">Development</option>
+            <option value="ai">AI & Data</option>
+        </select>
+
+    </section>
+
+
+    <!-- Job Listings -->
+    <section class="jobs-list">
+
+        <div class="job-item">
+            <div class="job-icon">🎨</div>
+
+            <div class="job-info">
+                <h2>UI/UX Designer</h2>
+                <p>TechNova Solutions</p>
+                <p class="job-description">
+    Design user-friendly digital experiences and create modern interfaces.
+</p>
+                <span>Chennai • Full Time</span>
+            </div>
+
+            <button
+            onclick="window.location.href='login.html'">Apply Now</button>
+        </div>
+
+
+        <div class="job-item">
+            <div class="job-icon">💻</div>
+
+            <div class="job-info">
+                <h2>Frontend Developer</h2>
+                <p>Innovate Labs</p>
+                <p class="job-description">
+    Build responsive websites and interactive user interfaces using modern web technologies.
+</p>
+                <span>Bangalore • Full Time</span>
+            </div>
+
+            <button
+            onclick="window.location.href='login.html'">Apply Now</button>
+        </div>
+
+
+        <div class="job-item">
+            <div class="job-icon">🤖</div>
+
+            <div class="job-info">
+                <h2>AI Intern</h2>
+                <p>FutureTech</p>
+                <p class="job-description">
+    Work on AI-based projects, explore data and learn practical machine learning skills.
+</p>
+                <span>Remote • Internship</span>
+            </div>
+
+            <button
+            onclick="window.location.href='login.html'">Apply Now</button>
+        </div>
+
+
+        <div class="job-item">
+            <div class="job-icon">📊</div>
+
+            <div class="job-info">
+                <h2>Data Analyst</h2>
+                <p>DataWorks</p>
+                <p class="job-description">
+    Analyze data,create meaningful insights and support business decisions.
+</p>
+                <span>Coimbatore • Full Time</span>
+            </div>
+
+            <button
+            onclick="window.location.href='login.html'">Apply Now</button>
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
